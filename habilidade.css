@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+nav {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(20, 20, 20, 1);
+    height: 8vh;
+
+}
+
+body {
+    background-color: rgba(20, 20, 20, 1);
+    background-position: center center;
+    background-size: cover;
+    backdrop-filter: blur(20px);
+    height: 100vh;
+    overflow: hidden;
+
+}
+ul {
+    list-style: none;
+    display: flex;
+    align-items:list;
+}
+
+li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+    color:rgb(255, 255, 255) ;
+}
+
+.separador {
+    color:transparent;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(236, 218, 251) ;
+}
+
+button {
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: transparent;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 0px 20px rgb(255, 0, 0);
+}
+
+.pai{
+    background-color: rgb(20,20,20, 1);
+    border-radius: 10px;
+    position: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+
+.filho{
+    background-color: rgb(20, 20, 20);
+    background: linear-gradient(140deg, rgba(20,20,20,1) 61%, rgba(186,23,23,1) 100%);
+    box-shadow:0px 0px 40px rgb(255, 0, 0);
+    border-radius: 10px;
+    color: white;
+    font-family: sans-serif;
+    height: 40vh;
+    margin: 30vh;
+    padding: 10px 150px;
+}
